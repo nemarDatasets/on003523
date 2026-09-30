@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG: Visual Working Memory in Acute TBI",
-  "description": "This dataset comprises EEG recordings examining visual working memory in control participants and individuals with sub-acute mild traumatic brain injury (TBI). Mind wandering probes were interspersed between task trials, and participants were assessed across up to three longitudinal sessions spanning several months post-injury. Data were collected between 2016 and 2018 at the Center for Brain Recovery and Repair, UNM Health Sciences Center.",
-  "methods_description": "EEG data were collected across up to three sessions per participant: Session 1 occurred 3-14 days post-injury (also including MRI), Session 2 at approximately 2 months, and Session 3 at approximately 4 months post Session 1. The working memory task, implemented in MATLAB, included interspersed mind wandering probes. EEG data were fully cleaned and pre-processed.",
+  "description": "EEG recordings from a visual working memory task in healthy controls and individuals with sub-acute mild traumatic brain injury (mTBI), with mind wandering probes inserted between trials. Participants were tested across up to three sessions, from 3-14 days post-injury to roughly 4 months later, with MRI acquired only in the first session. Data were collected in 2016-2018 and have not been published in a dedicated paper.",
+  "methods_description": "Participants performed a visual working memory task programmed in Matlab, with mind wandering probes between trials. Session 1 took place 3-14 days post-injury, Session 2 about 2 months later, and Session 3 about 4 months later. Data were collected at the Center for Brain Recovery and Repair, UNM Health Sciences Center. EEG data are preprocessed and analysis scripts are included.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,28 +11,22 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "EEG"
     },
     {
-      "term": "Brain Injuries, Traumatic",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000070642"
-    },
-    {
-      "term": "Memory, Short-Term",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008570"
-    },
-    {
-      "term": "mind wandering"
+      "term": "traumatic brain injury"
     },
     {
       "term": "working memory"
     },
     {
-      "term": "mild TBI"
+      "term": "mind wandering"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "concussion"
     }
   ],
   "related_identifiers": [
